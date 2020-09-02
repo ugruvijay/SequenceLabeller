@@ -1,0 +1,23 @@
+Assignment 2 Report
+
+Name: Vijay Narasimha Ugru
+
+1. Describe how you evaluated your baseline and advanced features:
+Using reservior sampling which randomly creates a training set with 75% of total files and remaining 25% as development set.
+
+2. Accuracy of baseline features during your evaluation:
+Accuracy =  0.7125639389842128
+
+3. Describe your advanced feature set:
+Advanced feature set included:
+	i) More details about the current token(Ex: If the token is a punctuation, or if it is a title)
+	ii) Details about the previous token(Ex: POS_tag, is_punctuation, is_title)
+	iii) Details about the next token(Ex: POS_tag, is_punctuation, is_title)
+	iv) Previous speaker
+	v) Last utteranace
+
+4. If you tried and rejected alternate advanced feature sets, please describe them:
+Tried keeping the tokens as it is. But didn't help increase the accuracy. So I converted the tokens to lowercase.
+
+5. Accuracy of advanced features was:
+Accuracy =  0.7213917084039535
